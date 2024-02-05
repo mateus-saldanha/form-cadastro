@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoas</title>
+    <link rel="shortcut icon" href="assets/img/local-na-rede-internet.png" type="Image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Cadastro de Pessoas</h1>
+    </header>
+    <nav class="menu">
+        <p class="cadastro">Cadastro</p>
+        <p class="banco-dados">Banco de Dados</p>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="img-form">
+                <img src="assets/img/undraw_forms_re_pkrt.svg" alt="Image Form">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastro</h1>
+                        </div>
+                        <div class="login-button">
+                            <a href="#"><button>Login</button></a>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="first-name">Nome</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="Nome" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="last-name">Sobrenome</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Sobrenome" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="number">Telefone</label>
+                            <input type="tel" id="number" name="number-" placeholder="(xx) x xxxx-xxxx" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="exemple@gmail.com" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="data-nascimento">Data de Nascimento</label>
+                            <input type="date" id="data-nascimento" name="data-nascimento" placeholder="dd/mm/aaa" required>
+                        </div>
+                    </div>
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h3>Gênero</h3>
+                        </div>
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input type="radio" id="male" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+                            <div class="gender-input">
+                                <input type="radio" id="female" name="gender">
+                                <label for="female">Feminino</label>
+                            </div>
+                            <div class="gender-input">
+                                <input type="radio" id="other" name="gender">
+                                <label for="other">Outros</label>
+                            </div>
+                            <div class="gender-input">
+                                <input type="radio" id="none" name="gender">
+                                <label for="none">Prefiro não informar</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submit-button">
+                        <button type="submit">Concluído</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="cabecalho"><a href="https://github.com/mateus-saldanha" target="_blank">Mateus Saldanha da Silva</a></p>
+    </footer>
+
+    
+</body>
+</html>

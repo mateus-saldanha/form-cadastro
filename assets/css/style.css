@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor0:#693E7F;
+    --cor1:#EDCAFF;
+    --cor2:#D37DFF;
+    --cor3:#56067F;
+    --cor4:#A964CC;
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor2)) ;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: var(--cor1);
+}
+nav{
+    background-color: var(--cor2);
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+}
+.cadastro {
+    text-align: center;
+    width: 80px;
+    margin-right: 1rem;
+    margin-left: 0.2rem;
+    color: var(--cor3);
+    border-radius: 5px;
+}
+.cadastro:hover{
+    background-color: var(--cor4);
+    cursor: pointer;
+    color: var(--cor1);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.banco-dados{
+    width: 130px;
+    text-align: center;
+    color: var(--cor3);
+    border-radius: 5px;
+}
+.banco-dados:hover{
+    background-color: var(--cor4);
+    cursor: pointer;
+    color: var(--cor1);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+main{
+    background-color: var(--cor1);
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 80%;
+    height: 70vh;
+    height: 50vh;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.5);
+    border-radius: 5px;
+    background-color: var(--cor1);
+}
+.img-form{
+    width: 50%;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.form{
+    background-color: var(--cor2);
+    width: 50%  ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.title h1{
+    color: var(--cor3);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.login-button button{
+    width: 50px;
+    height: 25px;
+    background-color: var(--cor3);
+    box-shadow: 2px 2px 2px rgba(0, o, o, o.5);
+    color: var(--cor1);
+    border-radius: 5px;
+}
+.login-button button:hover{
+    background-color: var(--cor0);
+    cursor: pointer;
+}
+.login-button button a{
+    color: var(--cor1);
+    text-decoration: none;
+}
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+}
+.input-box input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.input-box input:hover{
+    background-color: var(--cor1);
+}
+.input-box label{
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+.gender-inputs{
+    padding: 10px;
+}
+.gender-group{
+    display: flex;
+    justify-content: space-between;
+}
+.gender-input{
+    padding: 7px;
+}
+.gender-input input:hover{
+    cursor: pointer;
+}
+.gender-input label{
+    font-size: 0.95rem;
+}
+.submit-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.submit-button button{
+    width: 15rem;
+    height: 5vh;
+    background-color: var(--cor3);
+    box-shadow: 2px 2px 2px rgba(0, o, o, o.5);
+    border-radius: 5px;
+    color: var(--cor1);
+}
+.submit-button button:hover{
+    background-color: var(--cor0);
+    cursor: pointer;
+}
+
+footer{
+    background-color: var(--cor0);
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: var(--cor1);
+}
+footer a:hover{
+    text-decoration: underline;
+}   
+.cabecalho{
+    color:var(--cor1)
+}
